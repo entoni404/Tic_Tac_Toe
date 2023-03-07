@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c738f1e810.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/tictactoe.css" />
+  </head>
+  <body>
+    <!-- Start Page - Select Players -->
+    <div id="start_page">
+      <h1>Let's start the game</h1>
+      <p>Choose your character</p>
+      <div>
+        <button type="button" id="X" class="char_select">X</button>
+        <button type="button" id="O" class="char_select">O</button>
+      </div>
+    </div>
+    <!--- Game Play - Where Things Get Real -->
+    <div id="game_play">
+      <h1 id="text"></h1>
+
+      <div class="box_wrapper">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <!--- Winner Announcment -->
+    <div id="winner">
+      <h1 id="winner_text"></h1>
+      <button type="button" id="restart">Start Again</button>
+    </div>
+    <script src="/tictactoe.js"></script>
+  </body>
+</html>
